@@ -48,7 +48,7 @@ int main()
     int cont = 1;
     char opcao;
 
-    for (int i = 0; i < 2; i++) {
+    for (int i = 0; i < 10; i++) {
         cout << "Informe o nome da pessoa numero " << cont << ".\n";
         cin >> nome;
         cout << "\n";
@@ -83,7 +83,7 @@ int main()
         cont++;
     }
     cont = 1;
-    for (int i = 0; i < 2; i++) {
+    for (int i = 0; i < 10; i++) {
         cout << "Nome da pessoa " << cont << ": " << e[i].getNome() << "\n";
         cout << "Sobrenome da pessoa " << cont << ": " << e[i].getSobrenome() << "\n";
         cout << "Email da pessoa " << cont << ": " << e[i].getEmail() << "\n";
